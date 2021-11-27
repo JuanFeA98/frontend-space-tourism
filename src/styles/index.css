@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600&family=Barlow:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600&family=Barlow:wght@300;400;500&family=Bellefair&display=swap');
 
 img{
     width: 100%;
@@ -14,6 +14,49 @@ img{
     background-position: center;
     width: 100%;
     height: 100vh;
+}
+
+.home{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+}
+
+.home__content{
+    width: 500px;
+    position: fixed;
+    top: 30%;
+    left: 75px;
+}
+
+.home__content h1{
+    font-family: 'Bellefair', serif;
+    font-size: 125px;
+}
+
+.home__content p{
+    font-family: 'Barlow';
+    text-align: justify;
+    font-weight: lighter;
+    /* Aumentar espacio entre lineas */
+    line-height: 1.75;
+}
+
+.home__content .home__explore{
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    background: white;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__content h2{
+    color: black;
+    letter-spacing: 4px;
 }
 
 /* Tablet */
